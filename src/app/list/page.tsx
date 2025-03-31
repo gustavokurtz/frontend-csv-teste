@@ -80,7 +80,7 @@ interface DataItem {
   previewData?: CsvPreviewData;
 }
 
-const API_URL = process.env.NEXT_PUBLIC_NEST_API_URL || 'https://backend-csv-teste-production.up.railway.app';
+const API_URL = process.env.NEXT_PUBLIC_NEST_API_URL || 'https://backend-csv-teste-production.up.railway.app'; // Ou http://localhost:3000
 
 const DataListingPage: NextPage = () => {
   const [data, setData] = useState<DataItem[]>([])

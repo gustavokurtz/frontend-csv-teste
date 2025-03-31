@@ -12,7 +12,7 @@ import axios from 'axios'
 import { useRouter } from 'next/navigation'
 
 // Configuração de ambiente
-const API_URL = process.env.NEXT_PUBLIC_NEST_API_URL || 'http://localhost:3000';
+const API_URL = process.env.NEXT_PUBLIC_NEST_API_URL || 'https://backend-csv-teste.railway.internal'; // Ou http://localhost:3000
 
 interface Props {}
 
