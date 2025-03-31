@@ -83,7 +83,7 @@ const UploadPage: NextPage<Props> = ({}) => {
       return false
     }
     
-    // Reset error state if valid
+    
     setError(null)
     return true
   }
