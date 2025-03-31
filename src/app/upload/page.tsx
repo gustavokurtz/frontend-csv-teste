@@ -406,7 +406,6 @@ const UploadPage: NextPage<Props> = ({}) => {
         </div>
         
         <div className="text-center text-xs text-gray-500 pt-2">
-          <p>Formatos suportados: .csv (até 10MB)</p>
           <p className="mt-1">O processamento calculará a nota final como (nota1 + nota2) / 2</p>
         </div>
       </div>
